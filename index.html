@@ -1,22 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Static Test Page</title>
-    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel's Static Test Page</title>
+    <link rel="stylesheet" 
+    href="styles.css">
+    <!---style>
       @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
       .comic-neue-bold {
         font-family: "Comic Neue", cursive;
         font-weight: 700;
         font-style: normal;
       }
-    </style>
+    </style>--->
   </head>
-  <body style="background-color: #5296a5">
-    <div>
-      <h1 style="text-align: center" class="comic-neue-bold">
+  <!---<body style="background-color: #5296a5">-->
+    <body>
+      <!---h1 style="text-align: center" class="comic-neue-bold">
         Welcome to my Fullstack Development Lecture
-      </h1>
+      </h1>--->
+    <div class="container">
+      <p class="intro-text">Welcome to my Fullstack Development Practice Page</p>
+      <p class="sub-text">Here is a comprehensive list of topics I expect to be 
+        covered in this full stack web development course</p>
+        <br>
+        <button type="button"
+        class="togglebutton"> Show/Hide To-Do List</button>
+        <div class="todolist">
+      <table>
+        <thead>
+          <tr>
+            <th>To-Do List for Full Stack Web Development</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Javascript & DOM Manipulation</td>
+        </tr>
+        <tr>
+          <td>Responsive web design</td>
+        </tr>
+        <tr>
+          <td>Version Control with Git</td>
+        </tr>
+        <tr>
+          <td>Frontend Frameworks (React, Angular, or Vue.js)</td>
+        </tr>
+        <tr>
+          <td>Backend Development (Node.js, Express.js)</td>
+        </tr>
+        <tr>
+          <td>Database Management (SQL, Mongo DB)</td>
+        </tr>
+        <tr>
+          <td>RESTful APIs & CRUD Operations</td>
+        </tr>
+        <tr>
+          <td>Authentication and Auhorization</td>
+        </tr>
+        <tr>
+          <td>Deployment & CI/CD</td>
+        </tr>
+        <tr>
+          <td>Testing & Debugging</td>
+        </tr>
+      </tbody>
+      </table>
     </div>
+  </div>
+  <script src="script.js"></script>
     <!-- Pull this repository and create a TODO List (Table) of things you want to learn in this Course, -->
     <!-- Table Should be centered, Table should have a differenct color for headings -->
   </body>
